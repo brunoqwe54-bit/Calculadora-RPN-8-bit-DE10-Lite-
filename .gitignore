@@ -1,0 +1,40 @@
+# Quartus / Intel FPGA
+db/
+incremental_db/
+greybox_tmp/
+output_files/
+qdb/
+simulation/
+quartus/         # se usar projeto .qpf/.qsf numa subpasta
+*.qws
+*.smsg
+*.rpt
+*.xml
+*.bsf
+*.cmp
+*.done
+*.sld
+*.sof
+*.cdf
+*.jic
+*.pof
+*.sopcinfo
+*.qpf
+*.qsf
+*.qpf.bak
+*.qsf.bak
+*.bak
+*.log
+
+# ModelSim / Questa (se usar simulação)
+work/
+modelsim.ini
+transcript
+vsim.wlf
+*.wlf
+
+# Gerais
+.DS_Store
+Thumbs.db
+*.tmp
+*~
